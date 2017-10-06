@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace QuicksorterLib
 {
@@ -13,6 +14,8 @@ namespace QuicksorterLib
         }
 
         public int Comparisons { private set; get; } = 0;
+        public List<T> SortedCopy{ get { return elements.AsReadOnly(); }  }
+//        public List<T> SortedCopy { get {return elements.AsReadOnly();} }
 
         public void Sort()
         {
@@ -22,21 +25,22 @@ namespace QuicksorterLib
 
         private void Partition(int start, int end)
         {
-            T pivot;
+            T pivotValue;
 
             if (start != end)
             {
-                pivot = elements[start];
+                int pivotIndex = start;
+                pivotValue = elements[start];
                 int i = start + 1;
                 for (int j=i; j<=end; j+= 1)
                 {
-                    if (IsIncreasing(elements[j], pivot))
+                    if (IsIncreasing(elements[j], pivotValue))
                     {
                         Swap(i, j);
                         i += 1;
                     }
                 }
-                Swap(i, i - 1);
+                Swap(pivotIndex, i - 1);
             }
         }
 
