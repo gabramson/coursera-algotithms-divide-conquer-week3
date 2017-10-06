@@ -20,3 +20,5 @@ D:\Projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksort\obj\Debug\netc
 D:\Projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksort\obj\Debug\netcoreapp2.0\Quicksort.AssemblyInfo.cs
 D:\Projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksort\obj\Debug\netcoreapp2.0\Quicksort.dll
 D:\Projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksort\obj\Debug\netcoreapp2.0\Quicksort.pdb
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksort\bin\Debug\netcoreapp2.0\QuicksorterLib.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksort\bin\Debug\netcoreapp2.0\QuicksorterLib.pdb

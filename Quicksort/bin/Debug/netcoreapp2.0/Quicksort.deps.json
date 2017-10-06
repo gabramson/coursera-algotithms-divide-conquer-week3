@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Quicksort/1.0.0": {
+        "dependencies": {
+          "QuicksorterLib": "1.0.0"
+        },
         "runtime": {
           "Quicksort.dll": {}
+        }
+      },
+      "QuicksorterLib/1.0.0": {
+        "runtime": {
+          "QuicksorterLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Quicksort/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuicksorterLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

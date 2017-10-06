@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "QuicksorterLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/QuicksorterLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuicksorterLib.dll": {}
+        }
       }
     }
   },
@@ -656,15 +666,21 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "QuicksorterLib/1.0.0": {
+      "type": "project",
+      "path": "../Quicksorter/QuicksorterLib.csproj",
+      "msbuildProject": "../Quicksorter/QuicksorterLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "QuicksorterLib >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gary\\.nuget\\packages\\": {},
+    "C:\\Users\\garya\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +689,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksort\\Quicksort.csproj",
+      "projectUniqueName": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksort\\Quicksort.csproj",
       "projectName": "Quicksort",
-      "projectPath": "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksort\\Quicksort.csproj",
-      "packagesPath": "C:\\Users\\Gary\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksort\\obj\\",
+      "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksort\\Quicksort.csproj",
+      "packagesPath": "C:\\Users\\garya\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksort\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\garya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -695,7 +711,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksorter\\QuicksorterLib.csproj": {
+              "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksorter\\QuicksorterLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

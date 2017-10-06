@@ -5637,7 +5637,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gary\\.nuget\\packages\\": {},
+    "C:\\Users\\garya\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5646,17 +5646,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\QuicksortTest\\QuicksortTest.csproj",
+      "projectUniqueName": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\QuicksortTest\\QuicksortTest.csproj",
       "projectName": "QuicksortTest",
-      "projectPath": "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\QuicksortTest\\QuicksortTest.csproj",
-      "packagesPath": "C:\\Users\\Gary\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\QuicksortTest\\obj\\",
+      "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\QuicksortTest\\QuicksortTest.csproj",
+      "packagesPath": "C:\\Users\\garya\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\QuicksortTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\garya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5669,8 +5669,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksorter\\QuicksorterLib.csproj": {
-              "projectPath": "D:\\Projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksorter\\QuicksorterLib.csproj"
+            "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksorter\\QuicksorterLib.csproj": {
+              "projectPath": "C:\\projects\\C#\\Coursera\\algorithms-divide-conquer\\week3\\Quicksorter\\QuicksorterLib.csproj"
             }
           }
         }

@@ -4,9 +4,9 @@ using System.Collections.ObjectModel;
 
 namespace QuicksorterLib
 {
-    public class Quicksorter<T> where T : IComparable
+    public abstract class Quicksorter<T> where T : IComparable
     {
-        private List<T> elements = new List<T>();
+        protected List<T> elements = new List<T>();
 
         public void Add(T value)
         {
@@ -14,25 +14,35 @@ namespace QuicksorterLib
         }
 
         public int Comparisons { private set; get; } = 0;
-        public List<T> SortedCopy{ get { return elements.AsReadOnly(); }  }
-//        public List<T> SortedCopy { get {return elements.AsReadOnly();} }
+        public ReadOnlyCollection<T> SortedCopy { private set; get; }
 
         public void Sort()
         {
+            Comparisons = 0;
             Partition(0, elements.Count-1);
-            Comparisons = 1;
+            SortedCopy = elements.AsReadOnly();
         }
 
-        private void Partition(int start, int end)
+        protected abstract void SetPivot(int left, int right);
+
+        protected void Swap(int i, int j)
+        {
+            T temp = elements[i];
+            elements[i] = elements[j];
+            elements[j] = temp;
+        }
+
+        private void Partition(int left, int right)
         {
             T pivotValue;
 
-            if (start != end)
+            if (left < right)
             {
-                int pivotIndex = start;
-                pivotValue = elements[start];
-                int i = start + 1;
-                for (int j=i; j<=end; j+= 1)
+                SetPivot(left, right);
+                int pivotIndex = left;
+                pivotValue = elements[pivotIndex];
+                int i = left + 1;
+                for (int j=i; j<=right; j+= 1)
                 {
                     if (IsIncreasing(elements[j], pivotValue))
                     {
@@ -41,6 +51,14 @@ namespace QuicksorterLib
                     }
                 }
                 Swap(pivotIndex, i - 1);
+                pivotIndex = i - 1;
+                if (pivotIndex>= left+2)
+                {
+                    Partition(left, pivotIndex - 1);
+                }
+                if (pivotIndex<= right - 2){
+                    Partition(pivotIndex + 1, right);
+                }
             }
         }
 
@@ -48,13 +66,6 @@ namespace QuicksorterLib
         {
             Comparisons += 1;
             return first.CompareTo(second) < 0;
-        }
-
-        private void Swap(int i, int j)
-        {
-            T temp = elements[i];
-            elements[i] = elements[j];
-            elements[j] = temp;
         }
     }
 }
