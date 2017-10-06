@@ -1,0 +1,9 @@
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\bin\Debug\netcoreapp2.0\QuicksorterLib.deps.json
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\bin\Debug\netcoreapp2.0\QuicksorterLib.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\bin\Debug\netcoreapp2.0\QuicksorterLib.pdb
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\obj\Debug\netcoreapp2.0\QuicksorterLib.csproj.CoreCompileInputs.cache
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\obj\Debug\netcoreapp2.0\QuicksorterLib.AssemblyInfoInputs.cache
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\obj\Debug\netcoreapp2.0\QuicksorterLib.AssemblyInfo.cs
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\obj\Debug\netcoreapp2.0\QuicksorterLib.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\obj\Debug\netcoreapp2.0\QuicksorterLib.pdb
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\Quicksorter\obj\Debug\netcoreapp2.0\QuicksorterLib.csprojResolveAssemblyReference.cache

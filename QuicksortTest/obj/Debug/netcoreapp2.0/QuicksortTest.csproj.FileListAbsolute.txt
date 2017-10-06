@@ -1,0 +1,16 @@
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\obj\Debug\netcoreapp2.0\QuicksortTest.csprojResolveAssemblyReference.cache
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\obj\Debug\netcoreapp2.0\QuicksortTest.csproj.CoreCompileInputs.cache
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\obj\Debug\netcoreapp2.0\QuicksortTest.AssemblyInfoInputs.cache
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\obj\Debug\netcoreapp2.0\QuicksortTest.AssemblyInfo.cs
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\QuicksortTest.deps.json
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\QuicksortTest.runtimeconfig.json
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\QuicksortTest.runtimeconfig.dev.json
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\QuicksortTest.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\QuicksortTest.pdb
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\QuicksorterLib.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\bin\Debug\netcoreapp2.0\QuicksorterLib.pdb
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\obj\Debug\netcoreapp2.0\QuicksortTest.dll
+C:\projects\C#\Coursera\algorithms-divide-conquer\week3\QuicksortTest\obj\Debug\netcoreapp2.0\QuicksortTest.pdb

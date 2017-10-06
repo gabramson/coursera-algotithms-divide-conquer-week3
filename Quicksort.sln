@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksort", "Quicksort\Quicksort.csproj", "{57C63BB3-E2B3-4D1E-B637-10098FC3243D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuicksortTest", "QuicksortTest\QuicksortTest.csproj", "{8E6EB38D-75A0-4163-B760-4FD1886B1A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuicksorterLib", "Quicksorter\QuicksorterLib.csproj", "{C4D290DD-BAD6-4EE1-BF05-C7ACCBC989CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{57C63BB3-E2B3-4D1E-B637-10098FC3243D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C63BB3-E2B3-4D1E-B637-10098FC3243D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C63BB3-E2B3-4D1E-B637-10098FC3243D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6EB38D-75A0-4163-B760-4FD1886B1A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6EB38D-75A0-4163-B760-4FD1886B1A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6EB38D-75A0-4163-B760-4FD1886B1A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6EB38D-75A0-4163-B760-4FD1886B1A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D290DD-BAD6-4EE1-BF05-C7ACCBC989CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D290DD-BAD6-4EE1-BF05-C7ACCBC989CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D290DD-BAD6-4EE1-BF05-C7ACCBC989CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D290DD-BAD6-4EE1-BF05-C7ACCBC989CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
